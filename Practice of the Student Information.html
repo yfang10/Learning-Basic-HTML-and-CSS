@@ -7,7 +7,22 @@
 <form action = "">
 <fieldset>
 	<legend>学生档案</legend>
-	姓名: <input type = "text" placeholder = "请输入学生姓名"/>
+	姓名: <input type = "text" placeholder = "请输入学生姓名"/><br/><br/>
+
+	手机号码: <input type = "tel"/>
+	<br/><br/>
+
+	邮箱: <input type = "email"/>
+	<br/><br/>
+
+	所属学院: <input type = "text" placeholder = "请选择学院" list = "subject"/>
+	<datalist id = "subject">
+		<option>自动化学院</option>
+		<option>机械学院</option>
+		<option>经管学院</option>
+		<option>理学院</option>
+	</datalist>
+
 </fieldset>
 </form>
 </body>
