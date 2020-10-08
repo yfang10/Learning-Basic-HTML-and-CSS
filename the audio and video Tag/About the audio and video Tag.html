@@ -4,7 +4,16 @@
 <meta charset = "UTF-8">
 </head>
 <body>
-<audio src = "bgsound.mp3" autoplay = "autoplay" controls = "
+<!-- <audio src = "bgsound.mp3" autoplay = "autoplay" controls = "
 controls" loop = "-1"/></audio>
-</body>
+
+ -->
+ 	为了游览器的兼容性的问题, 我们需要做三种声音格式文件 ogg mp3 wav
+ 	<audio controls autoplay>
+ 		<source src = "bgsound.mp3"/>
+ 		<source src = "music.ogg"/>
+ 		
+ 		您的游览器不支持播放声音
+ 	</audio>
+ </body>
 </html>
