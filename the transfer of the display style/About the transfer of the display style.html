@@ -8,7 +8,22 @@
         width: 100px;
         height: 100px;   
         background-color: pink;
-        display: inline;
+         display: inline;        /* 块级标签转为行内标签模式 */
+         
+    } 
+
+    span{
+        width: 100px;
+        height: 100px;
+        background-color: hotpink;
+        display: block;         /* 行内标签模式转为块级标签 */
+    }
+
+    a{
+        width: 50px;
+        height: 20px;
+        background-color: deeppink;
+        display: inline-block;      /* 行内标签模式转换为行内块标签模式
     }
 </style>
 </head>
@@ -17,5 +32,11 @@
   <div>456</div>
   <div>789</div>
   <div>101112</div>
+  <span>abc</span>
+  <span>def</span>
+  <span>ghi</span>
+  <span>jkl</span>
+  <a href="#">123</a><a href="#">123</a>
+  
 </body>
 </html> 
