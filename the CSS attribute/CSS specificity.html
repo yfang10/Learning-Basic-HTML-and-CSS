@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head> 
+<meta charset = "UTF-8">
+<style>
+    /* 0, 0, 0, 0 特殊性公式 */
+
+   div {        /* 标签选择器 0, 0, 0, 1 */
+       color: pink; 
+   }
+
+   .king {      /* 类选择器 0, 0, 1, 0 */
+       color: blue; 
+   }
+
+   :first-child {       /* 伪类选择器 0, 0, 1, 0 */
+       color: green;
+   }
+   
+   #wang {        /* id选择器 0, 1, 0, 0 */
+       color: red;
+   }
+
+   /* 最大的 不是选择器 */
+   div {
+       color: orange!important;     /* important 级别最高 一旦出现优先执行 */
+   }
+</style>
+
+</head>
+<body>
+    <div class = "king" id = "wang" style = "color: skyblue">王者荣耀  </div>
+    
+   
+</body>
+</html> 
