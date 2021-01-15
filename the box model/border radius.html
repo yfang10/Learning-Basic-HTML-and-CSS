@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head> 
+<meta charset = "UTF-8">
+<style>
+    div {
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+    }
+
+    div:first-child {    
+        border-radius: 10px;    /* 结构伪类选择器 */
+
+    }
+     
+     div:nth-child(2) {
+        /*  border-radius: 100px;       取宽度和高度一半, 则会变成一个圆 */
+         border-radius: 50%;
+
+     }
+
+     div:nth-child(3) {
+         border-radius: 10px 40px;
+     }
+    
+</style>
+
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html> 
