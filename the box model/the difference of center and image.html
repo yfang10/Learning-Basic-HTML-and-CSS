@@ -18,8 +18,17 @@
     }
 
     section img {
-        width: 200px;
+        width: 200px;       /* 插入图片更改大小 width 和 height */
         height: 210px;
+        margin-top: 30px;       /* 插入图片更改位置 可以用margin 或 padding 盒模型 */
+        margin-left: 50px;      /* 插入当图片也是一个盒子 */
+    }
+
+    aside {
+        width: 400px;
+        height: 400px;
+        border: 1px solid purple;
+        background: #fff url(images/sun.jpg) 0 0 no-repeat;
     }
     
 </style>
@@ -32,5 +41,10 @@
     <section>
         <img src = "images/sun.jpg" height = "691" width = "721" alt = "">
     </section>
+
+    <aside>
+
+
+    </aside>
 </body>
 </html> 
