@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<style>
+    div:first-child {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        box-sizing: content-box;      /* 就是以前的盒模型 w3c */
+        padding: 10px;
+        border: 15px solid red;
+    }
+
+    div:last-child {
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        padding: 10px;
+        box-sizing: border-box;    /* padding值不撑开盒子 */
+        border: 15px solid red;     /* border值不撑开盒子 */
+    }
+
+</style>
+
+</head>
+<body>
+    <div>
+        content-box
+    </div>
+    
+    <div>
+        border-box
+    </div>
+</body>
+</html> 
