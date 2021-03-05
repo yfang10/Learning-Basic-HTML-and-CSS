@@ -25,6 +25,7 @@
 
         .main {
             width: 960px;
+            height:200px;
             margin: 0 auto;
             background-color: pink;
         }
@@ -32,7 +33,11 @@
         .main ul li {
             width: 240px;
             height: 200px;
-            float: left;
+            float: left;        /* 浮动的目的是让多个块级li 一行显示 而且没有缝隙 */
+        }
+
+        .main ul li:nth-child(even) {
+            background-color: purple;
         }
 
     </style>
