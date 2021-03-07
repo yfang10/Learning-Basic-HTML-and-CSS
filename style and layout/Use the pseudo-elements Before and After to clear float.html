@@ -30,7 +30,7 @@
         /* 如果son1 和 son2 都浮动了, 浮动元素不占有位置, 父级盒子又没有高度, 此时, 底部盒子就会跑上来 */
 
         .clearfix:before, .clearfix:after {
-            content: "";       /* 内容为小点, 尽量不要加空格, 否则旧版本游览器有空隙 */
+            content: "";       
             display: table;     /* 触发BFC 防止外边距合并 */
         }
 
